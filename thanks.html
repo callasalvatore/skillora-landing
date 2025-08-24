@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grazie! — Skillora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container section">
+    <div class="thanks-content">
+      <h1>Grazie mille! 🎉</h1>
+      <p class="thanks-message">Abbiamo ricevuto la tua richiesta per partecipare alla nostra analisi di mercato.</p>
+      
+      <div class="next-steps">
+        <h2>Prossimi passi:</h2>
+        <ul>
+          <li>📧 Riceverai una email di conferma entro 24 ore</li>
+          <li>📊 Ti invieremo un questionario dettagliato la prossima settimana</li>
+          <li>🎯 Sarai tra i primi a testare Skillora quando sarà lanciato</li>
+          <li>💡 I tuoi feedback aiuteranno a plasmare il futuro della piattaforma</li>
+        </ul>
+      </div>
+      
+      <p class="thanks-note">Nel frattempo, condividi Skillora con i tuoi amici e colleghi!</p>
+      
+      <div class="thanks-actions">
+        <a class="btn" href="index.html">Torna a Skillora</a>
+        <a class="btn btn--ghost" href="https://twitter.com/intent/tweet?text=Ho appena partecipato all'analisi di mercato di @Skillora! Un marketplace per servizi personali che sta arrivando in Italia 🚀" target="_blank">Condividi su Twitter</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Track thank you page view
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'page_view', {
+        'page_title': 'Thank You Page',
+        'page_location': window.location.href
+      });
+    }
+  </script>
+</body>
+</html>
